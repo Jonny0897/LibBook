@@ -1,6 +1,6 @@
 # CMD
 ## To create workspace :
-                        npx create-nx-workspace@latest
+       npx create-nx-workspace@latest
 ## Run:
        cd apps:                   nx serve lib-book
        serve the application:     npx nx serve api
@@ -15,7 +15,7 @@
 
 
 ## Share Codes - LIBRARY
-       in libs there are all codes or components/ui which is shared in the other part of codes
+       In #libs there are all codes or components/ui which is shared in the other part of codes
        Make sure the library is imported in app.module.ts of "lib-book" project
 
        generate library:                     nx g @nrwl/workspace:lib name-library
