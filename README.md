@@ -1,4 +1,5 @@
-# CMD
+#LibBook
+##Micro-Frontend by Nx 'https://nx.dev/getting-started/intro'
 ## To create workspace :
        npx create-nx-workspace@latest
 ## Run:
@@ -6,8 +7,6 @@
        serve the application:     npx nx serve api
        build the application:     npx nx build api
        test the application:      npx nx test api
-
-
 
 ## Directory "apps"
        "lib-book": is th angular application.
