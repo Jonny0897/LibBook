@@ -1,5 +1,6 @@
-#LibBook
-##Micro-Frontend by Nx 'https://nx.dev/getting-started/intro'
+# LibBook
+
+## Micro-Frontend by Nx - https://nx.dev/getting-started/intro
 ## To create workspace :
        npx create-nx-workspace@latest
 ## Run:
