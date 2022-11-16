@@ -1,9 +1,11 @@
 # LibBook
 
 ## Micro-Frontend by Nx - https://nx.dev/getting-started/intro
-## To create workspace :
+## To create workspace
+
        npx create-nx-workspace@latest
-## Run:
+## Run
+
        cd apps:                   `nx serve lib-book`
        serve the application:     `npx nx serve api`
        build the application:     `npx nx build api`
@@ -23,3 +25,10 @@
               to add component:                     `npx nx g component nameOfComponent --project=ui --export`           to use the ui-component take the selector -`ex. <ui-component>
 
 
+## Convert ur application in Module Configuration
+
+Run the command to configure your app in Module Configuration `@nrwl/angular:setup-mf`.
+Complete the field `appName` and the `mfType`.
+- Host is the deploy of your angular application
+- Remote handle a single domain or a feature
+At the end we have one `Host` and many `Remote`
